@@ -1,0 +1,27 @@
+<edoxbook w="720" h="380" name="12-Tone Tempering Keyboard">
+	<page>
+		<osc x="20" y="100" name="  C" id="c0" init="131.407" random="4.0" key="z" size="small" />
+			<osc x="45" y="10" name=" C#" id="cs0" init="139.221" random="4.0" key="s" size="small" />
+		<osc  x="70" y="100" name="  D" id="d0" init="147.500" random="4.0" key="x" size="small" />
+			<osc  x="95" y="10" name=" Eb" id="eb0" init="156.271" random="4.0" key="d" size="small" />
+		<osc x="120" y="100" name="  E" id="e0" init="165.563" random="4.0" key="c" size="small" />
+		<osc x="170" y="100" name="  F" id="f" init="175.408" random="4.0" key="q" size="small" />
+			<osc  x="195" y="10" name=" F#" id="fs" init="185.838" random="4.0" key="2" size="small" />
+		<osc x="220" y="100" name="  G" id="g" init="196.889" random="4.0" key="w" size="small" />
+			<osc x="245" y="10" name=" G#" id="gs" init="208.596" random="4.0" key="3" size="small" />
+		<osc x="270" y="100" name="  A" id="a" init="221.000" random="4.0" key="e" size="small" />
+			<osc x="295" y="10" name=" Bb" id="bb" init="234.141" random="4.0" key="4" size="small" />
+		<osc x="320" y="100" name="  B" id="b" init="248.064" random="4.0" key="r" size="small" />
+		<osc x="370" y="100" name="  C" id="c" init="262.815" random="4.0" key="t" size="small" />
+			<osc x="395" y="10" name=" C#" id="cs" init="278.443" random="4.0" key="6" size="small" />
+		<osc x="420" y="100" name="  D" id="d" init="295.000" random="4.0" key="y" size="small" />
+			<osc x="445" y="10" name=" Eb" id="eb" init="312.541" random="4.0" key="7" size="small" />
+		<osc x="470" y="100" name="  E" id="e" init="331.126" random="4.0" key="u" size="small" />
+		<osc x="520" y="100" name="  F" id="f2" init="350.816" random="4.0" key="i" size="small" />
+			<osc x="545" y="10" name=" F#" id="fs2" init="371.676" random="4.0" key="9" size="small" />
+		<osc x="570" y="100" name="  G" id="g2" init="393.777" random="4.0" key="o" size="small" />
+			<osc x="595" y="10" name=" G#" id="gs2" init="417.192" random="4.0" key="0" size="small" />
+		<osc x="620" y="100" name="  A" id="ra" disp="true" init="442.000" key="p" />
+		<osc x="370" y="190" init="262.815" name="   C" id="cr" disp="true" key="1" />
+	</page>
+</edoxbook>

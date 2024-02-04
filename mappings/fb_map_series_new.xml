@@ -1,0 +1,23 @@
+<freeboard ref="55">
+	<map key="a" name=" H8" n="0" ratio="8" wave="square" color="ffccaa" />
+	<map key="s" name=" H9" n="1" ratio="9" wave="square" />
+	<map key="d" name=" H10" n="2" ratio="10" wave="square" />
+	<map key="f" name=" H11" n="3" ratio="11" wave="square" />
+	<map key="g" name=" H12" n="4" ratio="12" wave="square" />
+	<map key="h" name=" H13" n="5" ratio="13" wave="square" />
+	<map key="j" name=" H14" n="6" ratio="14" wave="square" />
+	<map key="k" name=" H15" n="7" ratio="15" wave="square" />
+	<map key="l" name=" H16" n="8" ratio="16" wave="square" />
+
+	<map key="w" name=" H17" n="9" ratio="17/2" wave="square" />
+	<map key="e" name=" H19" n="10" ratio="19/2" wave="square" />
+
+	<map key="z" name=" H3" n="11" ratio="3" wave="saw" color="aaff88"/>
+	<map key="x" name="H9" n="16" ratio="9" wave="saw" color="88ffaa"/>
+
+	<map key="m" name=" H7" n="12" ratio="7" wave="square" />
+	<map key="n" name="H13/2" n="13" ratio="13/2" wave="square" />
+	<map key="b" name="H6" n="14" ratio="6" wave="square" />
+	<map key="v" name="H11/2" n="15" ratio="11/2" wave="square" />
+
+</freeboard>

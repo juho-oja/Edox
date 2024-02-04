@@ -1,0 +1,8 @@
+<settings>
+	<intervals file="data/default_intervals.xml" />
+	<scalefolder path="scales" />
+	<uiscale factor="1.0" />
+	<tempering template="templates/tempering_kb_extended.xml" />
+	<volume bitshift="3" />
+	<buffer segment="128" count="16" /> <!-- Segment: 32, 64, 128, or 256; Count: 4, 8, 16, or 32 -->
+</settings>

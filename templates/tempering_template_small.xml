@@ -1,0 +1,21 @@
+<edoxbook w="1000" h="600" name="Temperament Keyboard">
+	<page>
+		<osc x="55" y="420" name="   F" init="175.408" random="3.0" key="a" id="o1" />
+			<osc  x="100" y="280" name="   F#" init="185.838" random="3.0" key="w" id="o2" />
+		<osc x="145" y="420" name="   G" init="196.889" random="3.0" key="s" id="o3" />
+			<osc x="190" y="280" name="   G#" init="208.596" random="3.0" key="e" id="o4" />
+		<osc x="235" y="420" name="   A" init="221.000" random="3.0" key="d" id="o5" />
+			<osc x="280" y="280" name="   Bb" init="234.141" random="3.0" key="r" id="o6" />
+		<osc x="325" y="420" name="   B" init="248.064" random="3.0 "key="f" id="o7" />
+		<osc x="415" y="420" name="   C" init="262.815" random="3.0" key="g" id="o8" />
+			<osc x="460" y="280" name="   C#" init="278.443" random="3.0" key="y" id="o9" />
+		<osc x="505" y="420" name="   D" init="295.000" random="3.0" key="h" id="o10" />
+			<osc x="550" y="280" name="   Eb" init="312.541" random="3.0" key="u" id="o11" />
+		<osc x="595" y="420" name="   E" init="331.126" random="3.0" key="j" id="o12" />
+		<osc x="685" y="420" name="   F" init="350.816" random="3.0" key="k" id="o13" />
+			<osc x="730" y="280" name="   F#" init="371.676" random="3.0" key="o" id="o14" />
+		<osc x="775" y="420" name="   G" init="393.777" random="3.0" key="l" id="o15" />
+			<osc x="820" y="280" name="   G#" init="417.192" random="3.0" key="p" id="o16" />
+		<osc x="865" y="420" name="  A=442" init="442.000" type="fixed" key="m" id="o17" />
+	</page>
+</edoxbook>

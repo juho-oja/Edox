@@ -1,0 +1,42 @@
+<freeboard>
+	<map key="1" n="0" init="192.0" />
+
+	<map name="  K" key="z" n="0" octaves="-2" init="48.0" />
+	<map name="  L" key="x" n="1" octaves="-2" init="52.996" />
+	<map name="  M" key="c" n="2" octaves="-2" init="58.513" /> 
+	<map name="  N" key="v" n="3" octaves="-2" init="64.603" />
+	<map name="  O" key="b" n="4" octaves="-2" init="71.328" />
+	<map name="  P" key="n" n="5" octaves="-2" init="78.752" />
+	<map name="  Q" key="m" n="6" octaves="-2" init="86.949" />
+
+	<map name="  K" key="a" n="0" octaves="-1" init="96.0" />
+	<map name="  L" key="s" n="1" octaves="-1" init="105.993" />
+	<map name="  M" key="d" n="2" octaves="-1" init="117.025" /> 
+	<map name="  N" key="f" n="3" octaves="-1" init="129.206" />
+	<map name="  O" key="g" n="4" octaves="-1" init="142.655" />
+	<map name="  P" key="h" n="5" octaves="-1" init="157.504" />
+	<map name="  Q" key="j" n="6" octaves="-1" init="173.899" />
+	<map name="  K" key="k" n="0" init="192.0" />
+	<map name="  L" key="l" n="1" init="211.985" />
+
+	<map name="  K" key="q" n="0" ref="192.0" color="bbeeff" set="0" />
+	<map name="  L" key="w" n="1" init="211.985" color="eeffbb" set="1" />
+	<map name="  M" key="e" n="2" init="234.051" color="eeffbb" set="2" />
+	<map name="  N" key="r" n="3" init="258.413" color="eeffbb" set="3" />
+	<map name="  O" key="t" n="4" init="285.311" color="eeffbb" set="4" />
+	<map name="  P" key="y" n="5" init="315.009" color="eeffbb" set="5" />
+	<map name="  Q" key="u" n="6" init="347.798" color="eeffbb" set="6" />
+	<map name="  K" key="i" n="0" octaves="1" init="384.000" />
+	<map name="  L" key="o" n="1" octaves="1" init="423.970" />
+	<map name="  M" key="p" n="2" octaves="1" init="468.101" />
+
+	<map name="  N" key="2" n="3" octaves="1" init="516.826" />
+	<map name="  O" key="3" n="4" octaves="1" init="570.622" />
+	<map name="  P" key="4" n="5" octaves="1" init="630.018" /> 
+	<map name="  Q" key="5" n="6" octaves="1" init="695.596" />
+	<map name="  K" key="6" n="0" octaves="1" init="768.000" />
+	<map name="  L" key="7" n="1" octaves="1" init="847.941" />
+	<map name="  M" key="8" n="2" octaves="1" init="936.202" />
+	<map name="  N" key="9" n="3" octaves="1" init="1033.651" />
+	<map name="  O" key="0" n="4" octaves="1" init="1141.244" />
+</freeboard>

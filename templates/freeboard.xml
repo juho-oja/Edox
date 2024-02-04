@@ -1,0 +1,44 @@
+<edoxbook w="640" h="480" name="Freeboard" pagenumber="false">
+	<page>
+		<osc x="20" y="240" name="ref" init="440.0" disp="true" key="1" />
+
+		<osc x="125" y="20" init="256.0" key="2" size="small" />
+		<osc x="175" y="20" init="256.0" key="3" size="small" />
+		<osc x="225" y="20" init="256.0" key="4" size="small" />
+		<osc x="275" y="20" init="256.0" key="5" size="small" />
+		<osc x="325" y="20" init="256.0" key="6" size="small" />
+		<osc x="375" y="20" init="256.0" key="7" size="small" />
+		<osc x="425" y="20" init="256.0" key="8" size="small" />
+		<osc x="475" y="20" init="256.0" key="9" size="small" />
+		<osc x="525" y="20" init="256.0" key="0" size="small" />
+
+		<osc x="100" y="110" init="256.0" key="q" size="small" />
+		<osc x="150" y="110" init="256.0" key="w" size="small" />
+		<osc x="200" y="110" init="256.0" key="e" size="small" />
+		<osc x="250" y="110" init="256.0" key="r" size="small" />
+		<osc x="300" y="110" init="256.0" key="t" size="small" />
+		<osc x="350" y="110" init="256.0" key="y" size="small" />
+		<osc x="400" y="110" init="256.0" key="u" size="small" />
+		<osc x="450" y="110" init="256.0" key="i" size="small" />
+		<osc x="500" y="110" init="256.0" key="o" size="small" />
+		<osc x="550" y="110" init="256.0" key="p" size="small" />
+
+		<osc x="125" y="200" init="256.0" key="a" size="small" />
+		<osc x="175" y="200" init="256.0" key="s" size="small" />
+		<osc x="225" y="200" init="256.0" key="d" size="small" />
+		<osc x="275" y="200" init="256.0" key="f" size="small" />
+		<osc x="325" y="200" init="256.0" key="g" size="small" />
+		<osc x="375" y="200" init="256.0" key="h" size="small" />
+		<osc x="425" y="200" init="256.0" key="j" size="small" />
+		<osc x="475" y="200" init="256.0" key="k" size="small" />
+		<osc x="525" y="200" init="256.0" key="l" size="small" />
+
+		<osc x="150" y="290" init="256.0" key="z" size="small" />
+		<osc x="200" y="290" init="256.0" key="x" size="small" />
+		<osc x="250" y="290" init="256.0" key="c" size="small" />
+		<osc x="300" y="290" init="256.0" key="v" size="small" />
+		<osc x="350" y="290" init="256.0" key="b" size="small" />
+		<osc x="400" y="290" init="256.0" key="n" size="small" />
+		<osc x="450" y="290" init="256.0" key="m" size="small" />
+	</page>
+</edoxbook>

@@ -1,0 +1,30 @@
+<freeboard>
+	<map key="1" n="0" init="192.0" />
+
+	<map name="  -" key="a" n="7" init="350" ratio="1/2" set="0"/>
+	<map name="  R" key="s" n="0" ref="400" init="400" set="1" color="ffcc88"/>
+	<map name="  -" key="d" n="1" init="450" set="2" />
+	<map name="  T" key="f" n="2" init="500" set="3" /> 
+	<map name="  -" key="g" n="3" init="550" set="4" />
+	<map name="  -" key="h" n="4" init="600" set="5" />
+	<map name="  H" key="j" n="5" init="650" set="6" color="ccff88" />
+	<map name="  -" key="k" n="6" init="700" set="7" />
+	<map name="  -" key="l" n="7" init="750" />
+
+	<map name="  -" key="q" n="7" ratio="1" init="700" />
+	<map name="  R" key="w" n="0" ratio="2" init="800" />
+	<map name="  -" key="e" n="1" ratio="2" init="900" />
+	<map name="  T" key="r" n="2" ratio="2" init="1000" />
+	<map name="  -" key="t" n="3" ratio="2" init="1100" />
+	<map name="  -" key="y" n="4" ratio="2" init="1200" />
+	<map name="  H" key="u" n="5" ratio="2" init="1300" />
+	<map name="  -" key="i" n="6" ratio="2" init="1400" />
+	<map name="  -" key="o" n="7" ratio="2" init="1500" />
+	<map name="  R" key="p" n="0" ratio="4" init="1600" />
+
+	<map name="  R" key="z" n="0" cents="0" init="60" color="ffcc88" />
+	<map name="  H" key="x" n="4" cents="700" init="60" color="ccff88" />
+	<map name="  R" key="c" n="0" ratio="1/4" init="100" color="ffcc88" /> 
+	<map name="  H" key="v" n="4" ratio="1/4" init="150" color="ccff88" />
+	<map name="  Q" key="b" n="2" ratio="1/2" init="250" color="bbffaa" />
+</freeboard>
