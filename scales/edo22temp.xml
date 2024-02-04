@@ -1,0 +1,35 @@
+<scale name="22-Tone Equal Temperament" type="tempered" octaves="true"> <!-- Octaves repeat by default but can be turned off or declared explicitly -->
+
+	<bigdescritption>
+		A lot of unnecessary and useless text
+	</bigdescritption>
+
+	<tone name="root" cents="0.0" ref="256"/>
+	<tone cents="0.0" />
+	<tone cents="0.0" />
+	<tone cents="0.0" />
+	<tone cents="0.0" />
+
+	<bigdescritption>
+		More useless shit
+	</bigdescritption>
+
+	<tone cents="0.0" />
+	<tone cents="0.0" />
+	<tone name="3rd" cents="+5.0" />
+	<tone cents="0.0" />
+	<tone cents="0.0" />
+	<tone cents="0.0" />
+	<tone cents="0.0" />
+	<tone cents="0.0" />
+	<tone cents="0.0" />
+	<tone cents="0.0" />
+	<tone cents="0.0" />
+	<tone cents="0.0" />
+	<tone cents="0.0" />
+	<tone cents="0.0" />
+	<tone cents="0.0" />
+	<tone cents="0.0" />
+	<tone cents="0.0" />
+</scale>
+

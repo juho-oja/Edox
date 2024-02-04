@@ -1,0 +1,21 @@
+<scale octaves="true">
+	<tone cents="0.000000" />
+	<tone cents="-9.180000" />
+	<tone cents="53.147000" />
+	<tone cents="103.527000" />
+	<tone cents="160.737000" />
+	<tone cents="224.398000" />
+	<tone cents="316.154000" />
+	<tone cents="355.653000" />
+	<tone cents="415.916000" />
+	<tone cents="479.973000" />
+	<tone cents="552.376000" />
+	<tone cents="613.690000" />
+	<tone cents="677.298000" />
+	<tone cents="743.827000" />
+	<tone cents="803.574000" ref="440.000000" />
+	<tone cents="870.120000" />
+	<tone cents="935.998000" />
+	<tone cents="993.525000" />
+	<tone cents="1059.892000" />
+</scale>

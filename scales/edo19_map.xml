@@ -1,0 +1,61 @@
+<scale name="19-TET" octaves="true">
+	<tone cents="0.000000" />
+	<tone cents="63.157895" />
+	<tone cents="126.315789" />
+	<tone cents="189.473684" />
+	<tone cents="252.631579" />
+	<tone cents="315.789474" />
+	<tone cents="378.947368" />
+	<tone cents="442.105263" />
+	<tone cents="505.263158" />
+	<tone cents="568.421053" />
+	<tone cents="631.578947" />
+	<tone cents="694.736842" />
+	<tone cents="757.894737" />
+	<tone cents="821.052632" />
+	<tone cents="884.210526" ref="440.0" />
+	<tone cents="947.368421" />
+	<tone cents="1010.526316" />
+	<tone cents="1073.684211" />
+	<tone cents="1136.842105" />
+
+	<freeboard>
+		<map key="1" n="14" name="  ref" init="440.000" />
+		<map key="q" n="0" name="  C" color="eeffbb" init="264.023" random="4.0" set="0" />
+		<map key="w" n="3" name="  D" color="eeffbb" init="294.559" random="4.0" set="3" />
+		<map key="e" n="6" name="  E" color="eeffbb" init="328.627" random="4.0" set="6" />
+		<map key="r" n="8" name="  F" color="eeffbb" init="353.501" random="4.0" set="8" />
+		<map key="t" n="11" name="  G" color="eeffbb" init="394.386" random="4.0" set="11" />
+		<map key="y" n="14" name="  A" color="eeffff" init="440.000" random="4.0" set="14" />
+		<map key="u" n="17" name="  B" color="eeffbb" init="490.889" random="4.0" set="17" />
+		<map key="i" n="0" ratio="2" name="  C" init="528.045" random="4.0" />
+		<map key="o" n="3" ratio="2" name="  D" init="589.118" random="4.0" />
+		<map key="p" n="6" ratio="2" name="  E" init="657.254" random="4.0" />
+
+		<map key="2" n="2" name=" Db" color="eeffbb" init="284.007" random="4.0" set="2" />
+		<map key="3" n="5" name=" Eb" color="eeffbb" init="316.854" random="4.0" set="5" />
+		<map key="4" n="7" name=" Fb" color="eeffbb" init="340.837" random="4.0" set="7" />
+		<map key="5" n="10" name=" Gb" color="eeffbb" init="380.258" random="4.0" set="10" />
+		<map key="6" n="13" name=" Ab" color="eeffbb" init="424.237" random="4.0" set="13" />
+		<map key="7" n="16" name=" Bb" color="eeffbb" init="473.304" random="4.0" set="16" />
+		<map key="9" n="2" ratio="2" name=" Db" init="568.013" random="4.0" />
+		<map key="0" n="5" ratio="2" name=" Eb" init="633.708" random="4.0" />
+
+		<map key="a" n="1" name=" C#" color="eeffbb" init="273.832" random="4.0" set="1" />
+		<map key="s" n="4" name=" D#" color="eeffbb" init="305.503" random="4.0" set="4" />
+		<map key="f" n="9" name=" F#" color="eeffbb" init="366.635" random="4.0" set="9" />
+		<map key="g" n="12" name=" G#" color="eeffbb" init="409.040" random="4.0" set="12" />
+		<map key="h" n="15" name=" A#" color="eeffbb" init="456.348" random="4.0" set="15" />
+		<map key="j" n="18" name=" B#" color="eeffbb" init="509.129" random="4.0" set="18" />
+		<map key="k" n="1" ratio="2" name=" C#" init="547.665" random="4.0" />
+		<map key="l" n="4" ratio="2" name=" D#" init="611.007" random="4.0" />
+
+		<map key="z" n="16" ratio="1/8" name="Bb-2" color="ffcc88" init="59.163" random="4.0" />
+		<map key="x" n="0" ratio="1/4" name=" C-2" color="ffcc88" init="66.006" random="4.0" />
+		<map key="c" n="5" ratio="1/4" name="Eb-2" color="ffcc88" init="79.214" random="4.0" />
+		<map key="v" n="6" ratio="1/4" name=" E-2" color="ffcc88" init="82.157" random="4.0" />
+		<map key="b" n="8" ratio="1/4" name=" F-2" color="ffcc88" init="88.375" random="4.0" />
+		<map key="n" n="11" ratio="1/4" name=" G-2" color="ffcc88" init="98.597" random="4.0" />
+		<map key="m" n="13" ratio="1/4" name="Ab-2" color="ffcc88" init="106.059" random="4.0" />
+	</freeboard>
+</scale>

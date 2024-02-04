@@ -1,0 +1,25 @@
+<scale name="22-Tone Equal Temperament" octaves="true"> <!-- Octaves repeat by default but can be turned off or declared explicitly -->
+	<tone cents="0.0" />
+	<tone cents="54.545" />
+	<tone cents="109.091" />
+	<tone cents="163.636" />
+	<tone cents="218.182" />
+	<tone cents="272.727" />
+	<tone cents="327.273" />
+	<tone cents="381.818" />
+	<tone cents="436.364" />
+	<tone cents="490.909" />
+	<tone cents="545.455" />
+	<tone cents="600.000" />
+	<tone cents="654.545" />
+	<tone cents="709.091" />
+	<tone cents="763.636" />
+	<tone cents="818.182" />
+	<tone cents="872.727" />
+	<tone cents="927.273" ref="442.0" />
+	<tone cents="981.818" />
+	<tone cents="1036.364" />
+	<tone cents="1090.909" />
+	<tone cents="1145.455" />
+</scale>
+

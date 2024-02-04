@@ -1,0 +1,7 @@
+<scale>
+	<tone name="C" cents="0.0" ref="256.0" />
+	<null />
+	<tone name="D" cents="204.0" />
+	<null />
+	<tone name="E" cents="386.0" />
+</scale>

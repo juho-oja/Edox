@@ -1,0 +1,105 @@
+<edoxbook w="1000" h="700" name="Practical Tuning for Dummies">
+
+	<page>
+		<line x="20" y="30" s="20">Practical Tuning (Express Edition)</line>
+
+		<line x="20" y="80">This book deals with the practical art of tuning and tries to leave out all the unnecessary</line>
+		<line x="20" y="100">theoretical and mathematical parts. If you want all that stuff, too, check out the comprehensive</line>
+		<line x="20" y="120">edition which may be more suitable for you. In this book, we'll start by tuning simple unisons and</line>
+		<line x="20" y="140">move all the way to making your own tuning systems. If you're interested, there's a whole separate</line>
+		<line x="20" y="160">unit in the end that teaches you how to tune a near-perfect 12-tone equal temperament by ear.</line>
+
+		<line x="20" y="200">As you probably noticed, the book is split into separate 10 to 20 page segments, and you should</line>
+		<line x="20" y="220">try to go through them in order. Pages are selected with the arrow buttons at the bottom. Please</line>
+		<line x="20" y="240">head on to the next page where the noisemaking starts.</line>
+	</page>
+
+	<page>
+		<line x="20" y="40">You have one lonely oscillator on this page below the paragraphs of text. There's not much you can do with</line>
+		<line x="20" y="60">one of them alone but at least you can turn it on and off by pressing SPACE BAR which you should do right</line>
+		<line x="20" y="80">now. The green light will turn on to indicate that it's active and emitting sound.</line>
+
+		<line x="20" y="120">Most oscillators in this book (and Edox in general) use so-called sawtooth waves which sound a bit "buzzy",</line>
+		<line x="20" y="140">but there's a very good reason for using them which is explained later. Set your volumes to a comfortable level</line>
+		<line x="20" y="160">and if you're happy, move on to the next page.</line>
+
+		<line x="20" y="200">If the sound brightness is too much, use the treble control or adjust the EQ on your device. If no such things</line>
+		<line x="20" y="220">are available, you can try placing a soft and fuzzy object between you and the speakers / headphones, but don't</line>
+		<line x="20" y="240">cover any electrical parts that could heat up. In the long run, though, you should just learn to deal with</line>
+		<line x="20" y="260">the buzziness.</line>
+
+		<osc x="20" y="340" init="128.0" id="losc" name="Lonely Osc" disp="true" />
+	</page>
+
+	<page>
+		<line x="20" y="40">You can change an oscillator's pitch with UP ARROW and DOWN ARROW keys. All key presses are accelerated,</line>
+		<line x="20" y="60">which means that the longer you hold the key down, the faster the rate of change becomes. This oscillator displays</line>
+		<line x="20" y="80">its frequency below its name so that you can see it changing when you press the keys. The display is not a</line>
+		<line x="20" y="100">precision tool and most oscillators don't have it active because it's a distraction that does not provide any</line>
+		<line x="20" y="120">useful information.</line>
+
+		<line x="20" y="160">If you hold down SHIFT, your arrow keys enter into coarse mode which allows you to make large adjustments</line>
+		<line x="20" y="180">quickly. Use it to skip intervals larger than a semitone.</line>
+
+		<line x="20" y="220">If you hold down CTRL, the arrow keys enter into extra fine mode which allows you to make adjustments so</line>
+		<line x="20" y="240">small that they don't even register on the display unless you hold the key down for a while. You're going</line>
+		<line x="20" y="260">to need it quite a bit more than you probably expect right now.</line>
+
+		<line x="20" y="300">Be prepared for some cacophony on the next page...</line>
+
+		<osc x="20" y="340" init="128.0" id="losc" name="Lonely Osc" disp="true" active="true" />
+	</page>
+
+	<page>
+		<line x="20" y="40" s="20">ESC is your PANIC BUTTON, which mutes all active oscillators on that page. </line>
+
+		<osc x="20" y="340" init="128.0" id="losc" name="Not lonely" disp="true" active="true" />
+		<osc x="110" y="340" init="256.0" random="30.0" name=" fren 1" disp="true" type="fixed" active="true" />
+		<osc x="200" y="340" init="512.0" random="30.0" name=" fren 2" disp="true" type="fixed" active="true" />
+		<osc x="290" y="340" init="128.0" random="30.0" name=" fren 3" disp="true" type="fixed" active="true" />
+		<osc x="380" y="340" init="256.0" random="30.0" name=" fren 4" disp="true" type="fixed" active="true" />
+		<osc x="470" y="340" init="512.0" random="30.0" name=" fren 5" disp="true" type="fixed" active="true" />
+		<osc x="560" y="340" init="192.0" random="30.0" name=" fren 6" disp="true" type="fixed" active="true" />
+		<osc x="650" y="340" init="224.0" random="30.0" name=" fren 7" disp="true" type="fixed" active="true" />
+	</page>
+
+	<page>
+		<line x="20" y="40">You can select between oscillators with the LEFT ARROW and RIGHT ARROW keys. You can</line>
+		<line x="20" y="60">tell which one is selected by the dark orange outline. Oscillators with yellow background</line>
+		<line x="20" y="80">are fixed and their pitch cannot be changed. They typically serve as reference tones in</line>
+		<line x="20" y="100">study material and exercises.</line>
+
+		<osc x="20" y="340" init="128.0" random="0.4" name="  C" type="fixed" />
+		<osc x="110" y="340" init="144.0" random="0.4" name="  D" type="fixed" />
+		<osc x="200" y="340" init="160.0" random="0.4" name="  E" type="fixed" />
+		<osc x="290" y="340" init="170.67" random="0.4" name="  F" type="fixed" />
+		<osc x="380" y="340" init="192.0" random="0.4" name="  G" type="fixed" />
+		<osc x="470" y="340" init="213.33" random="0.4" name="  A" type="fixed" />
+		<osc x="560" y="340" init="240.0" random="0.4" name="  B" type="fixed" />
+		<osc x="650" y="340" init="256.0" random="0.4" name="  C" type="fixed" />
+	</page>
+
+	<page>
+		<line x="20" y="40">Most oscillators feature a key shortcut shown on the bottom that lets you to play</line>
+		<line x="20" y="60">them like a... keyboard. Note that most computer keyboards don't allow you to hold</line>
+		<line x="20" y="80">down an unlimited number keys and some letter combinations may not work with your</line>
+		<line x="20" y="100">particular keyboard. In that case, hold down SHIFT and tap the keys in a sequence</line>
+		<line x="20" y="120">to toggle the oscillators on and off, then release SHIFT.</line>
+
+		<line x="20" y="160">Try to play twinkle, twinkle little star or something to that effect with the qwerty</line>
+		<line x="20" y="180">keys on your computer keyboard, then proceed to make some chords. Make sure that CAPS</line>
+		<line x="20" y="200">LOCK is turned off.</line>
+
+		<line x="20" y="240">That's pretty much it for this chapter. You're now ready to proceed to the first study section.</line>
+
+		<osc x="20" y="340" init="128.0" random="0.4" name="  C" key="q" type="fixed" />
+		<osc x="110" y="340" init="144.0" random="0.4" name="  D" key="w" type="fixed" />
+		<osc x="200" y="340" init="160.0" random="0.4" name="  E" key="e" type="fixed" />
+		<osc x="290" y="340" init="170.67" random="0.4" name="  F" key="r" type="fixed" />
+		<osc x="380" y="340" init="192.0" random="0.4" name="  G" key="t" type="fixed" />
+		<osc x="470" y="340" init="213.33" random="0.4" name="  A" key="y" type="fixed" />
+		<osc x="560" y="340" init="240.0" random="0.4" name="  B" key="u" type="fixed" />
+		<osc x="650" y="340" init="256.0" random="0.4" name="  C" key="i" type="fixed" />
+	</page>
+
+<edoxbook>

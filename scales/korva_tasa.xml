@@ -1,0 +1,14 @@
+<scale octaves="true">
+	<tone name="C" cents="0.0" />
+	<tone name="C#" cents="99.509" />
+	<tone name="D" cents="199.704" />
+	<tone name="Eb" cents="299.978" />
+	<tone name="E" cents="399.682" />
+	<tone name="F" cents="500.051" />
+	<tone name="F#" cents="599.569" />
+	<tone name="G" cents="699.906" />
+	<tone name="G#" cents="799.591" />
+	<tone name="A" cents="899.737" ref="442.00" />
+	<tone name="Bb" cents="999.994" />
+	<tone name="B" cents="1099.697" />
+</scale>

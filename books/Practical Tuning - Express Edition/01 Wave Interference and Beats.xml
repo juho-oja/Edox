@@ -1,0 +1,91 @@
+<edoxbook w="800" h="600" name="Interference, Beats and Tuning" >
+	<page n="1">
+		<line x="20" y="40">As you probably know, sound propagates as waves in the air. Some sounds have a pattern that</line>
+		<line x="20" y="60">repeats which causes them to have a distinct pitch. How quickly that pattern repeats itself</line>
+		<line x="20" y="80">determines the pitch of that sound.</line>
+
+		<line x="20" y="120">Pitch is usually measured in cycles per second, most of the time denoted by its fancier name</line>
+		<line x="20" y="140">Hertz (Hz). For example, a pattern running at 20 Hz would repeat 20 times per second, and</line>
+		<line x="20" y="160">each pattern would last 0.05 seconds, or 50 milliseconds (ms).</line>
+
+		<line x="20" y="200">When tuning by ear, worrying about absolute pitch levels is not necessary. Usually, you</line>
+		<line x="20" y="220">start from a single known reference tone and derive everything else from it.</line>
+	</page>
+
+	<page n="2">
+		<line x="20" y="40">Because sounds are waves in the air, they have most of the same properties as waves on water.</line>
+		<line x="20" y="60">When two or more sounds waves meet in space, they form interference patterns. This means that</line>
+		<line x="20" y="80">sounds can reinforce or cancel each other out in a number or ways depending on what their shapes</line>
+		<line x="20" y="100">and pitches are like. Tuning by ear is all about listening for those interference patterns,</line>
+		<line x="20" y="120">and it is also the reason why aural tuning is much more precise than trying to tune by</line>
+		<line x="20" y="140">measuring absolute frequencies with an electronic device.</line>
+	</page>
+
+	<page>
+		<line x="20" y="40">We'll start our journey into interference patterns by taking a look at two similar tones at</line>
+		<line x="20" y="60">the same pitch. I want you to turn one of the oscillators on and leave it sounding the whole time.</line>
+		<line x="20" y="80">Then, go to the other one and switch it on and off periodically and listen for the change. You</line>
+		<line x="20" y="100">should get a different result when you turn the second oscillator back on most of the time. This</line>
+		<line x="20" y="120">happens because while the tones share the same exact pitch, their patterns are not aligned with</line>
+		<line x="20" y="140">each other and you're likely to end up with a different combination each time.</line>
+
+		<osc x="20" y="200" init="140.0" type="fixed" />
+		<osc x="120" y="200" init="140.0" type="fixed" />
+	</page>
+
+	<page n="3">
+		<line x="20" y="40">Here's a visual example of what happened. As you can see, the upper wave is a tiny bit ahead.</line>
+		<line x="20" y="60">The general shape looks pretty similar to the two waves individually, but there's a sharp</line>
+		<line x="20" y="80">spiky feature in the middle of the vertical part which causes an equally sharp buzz.</line>
+
+		<img x="20" y="120" file="images/saw_phase3.png" scale="0.8" />
+	</page>
+
+	<page n="4">
+		<line x="20" y="40">The lower tone is ahead by about one fifth of a cycle here. The spike is a little bit</line>
+		<line x="20" y="60">larger but it's also less sharp in the sense that it's wider.</line>
+
+		<img x="20" y="120" file="images/saw_phase1.png" scale="0.8" />
+	</page>
+
+	<page n="5">
+		<line x="20" y="40">The lower tone is now almost halfway through the upper tone's cycle, and the composite</line>
+		<line x="20" y="60">looks a lot different. The spike in the middle is almost the same size as the waves</line>
+		<line x="20" y="80">themselves.</line>
+
+		<img x="20" y="120" file="images/saw_phase2.png" scale="0.8" />
+	</page>
+<!--
+	<page n="6">
+		<line x="20" y="40">Lower tone is almost completely through the upper tone's cycle. Actually, it's the same</line>
+		<line x="20" y="60">picture as the first one but the frame of reference is different.</line>
+
+		<img x="20" y="120" file="images/saw_phase3.png" scale="0.8" />
+	</page>
+-->
+	<page n="7">
+		<line x="20" y="40">Now, turn both of these oscillators on. They are very close to each other but not at the same</line>
+		<line x="20" y="60">exact pitch anymore. The difference is very small, only 5 thousandths of a Hertz. One of them</line>
+		<line x="20" y="80">is gradually running ahead and the other is falling behind.</line>
+		<line x="20" y="100"></line>
+		
+		<osc x="20" y="200" init="140.0" type="fixed" />
+		<osc x="120" y="200" init="139.995" type="fixed" />
+	</page>
+
+	<page n="8">
+		<line x="20" y="40">Again, turn both of these oscillators on. They are very close but not at the same exact</line>
+		<line x="20" y="60">pitch anymore.</line>
+		
+		<osc x="20" y="200" init="140.0" type="fixed" />
+		<osc x="120" y="200" init="139.95" type="fixed" />
+	</page>
+
+	<page n="9">
+		<osc x="20" y="200" init="140.0" type="fixed" active="true" />
+		<osc x="120" y="200" init="139.5" type="fixed" active="true" />
+	</page>
+
+	<page n="10">
+	</page>
+</edoxbook>

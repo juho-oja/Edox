@@ -1,0 +1,10 @@
+<scale name="Harmonics 8-16" octaves="true">
+	<tone name="8" ratio="8/8" ref="256.0"/>
+	<tone name="9" ratio="9/8" />
+	<tone name="10" ratio="10/8" />
+	<tone name="11" ratio="11/8" />
+	<tone name="12" ratio="12/8" />
+	<tone name="13" ratio="13/8" />
+	<tone name="14" ratio="14/8" />
+	<tone name="15" ratio="15/8" />
+</scale>
