@@ -95,16 +95,16 @@ class Edox extends JFrame implements ActionListener {
 		setJMenuBar(main_menu);
 
 		scale_editor = new ScaleEditor(intervals);
-        JComponent panel2 = makeTextPanel("Panel #2");
-        JComponent panel3 = makeTextPanel("Panel #3");
+    //  JComponent panel2 = makeTextPanel("Panel #2");
+    //  JComponent panel3 = makeTextPanel("Panel #3");
 
 		tabs = new JTabbedPane();
-			tabs.addTab("Scale edit", null, scale_editor, null);
-			tabs.addTab("Player", null, panel2, null);
-			tabs.addTab("Tuning practice", null, panel3, null);
+			tabs.addTab("Scale view", null, scale_editor, null);
+		//	tabs.addTab("Player", null, panel2, null);
+		//	tabs.addTab("Tuning practice", null, panel3, null);
         tabs.setMnemonicAt(0, KeyEvent.VK_1);
-        tabs.setMnemonicAt(1, KeyEvent.VK_2);
-        tabs.setMnemonicAt(2, KeyEvent.VK_3);
+    //    tabs.setMnemonicAt(1, KeyEvent.VK_2);
+    //    tabs.setMnemonicAt(2, KeyEvent.VK_3);
 		tabs.setInputMap(0, null);
 
 		add(tabs);
